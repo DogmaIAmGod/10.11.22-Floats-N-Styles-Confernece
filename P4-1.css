@@ -1,0 +1,50 @@
+body {
+    font-size: 18pt;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.flexbox-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 3px solid #333;
+    background-color: white;
+}
+
+.flexbox-header, .flexbox-footer {
+    width: 100%;
+    height: 50px;
+}
+
+.flexbox-header {
+    background-color: orange;
+}
+
+.flexbox-hero {
+    width: 1275px;
+    background-color: red;
+}
+
+.flexbox-content {
+    width: 750px;
+    background-color: green;
+}
+
+.flexbox-sidebar {
+    width: 500px;
+    background-color: purple;
+}
+
+.flexbox-footer {
+    background-color: teal;
+}
+
+.flexbox-hero, .flexbox-content, .flexbox-sidebar {
+    margin: 10px;
+    height: 200px;
+}
